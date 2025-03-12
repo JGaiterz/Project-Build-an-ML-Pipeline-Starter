@@ -54,42 +54,42 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_artifact", 
         type = str,
-        help = 'input_artifact should be a string'
+        help = 'Name of the input artifact',
         required = True
     )
 
     parser.add_argument(
         "--output_artifact", 
         type = str,
-        help = 'output_artifact should be a string',
+        help = 'Name of the output artifact',
         required = True
     )
 
     parser.add_argument(
         "--output_type", 
         type = str,
-        help = 'output_type should be a string',
+        help = 'Type of the output artifact',
         required = True
     )
 
     parser.add_argument(
         "--output_description", 
         type = str, 
-        help = 'output_description should be a string'## INSERT DESCRIPTION HERE,
+        help = 'Description of the output artifact',
         required = True
     )
 
     parser.add_argument(
         "--min_price", 
         type = float,
-        help = 'min_price should be a float',
+        help = 'Minimum price should be a float',
         required = True
     )
 
     parser.add_argument(
         "--max_price",
         type = float,
-        help = 'max_price should be a float',
+        help = 'Max price should be a float',
         required = True
     )
 
